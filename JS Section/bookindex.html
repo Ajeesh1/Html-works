@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="col-4">
+        <input type="text" name="" id="bk_name" placeholder="bookname"><br>
+        <input type="text" name="" id="author" placeholder="author"><br>
+        <input type="text" name="" id="price" placeholder="price"><br>
+        <input type="text" name="" id="copies" placeholder="copies"><br>
+        <button onclick="CreateBook()">CreateBook</button><br>
+        <br>
+        <button onclick="fetchbooks()">List All Books</button>
+
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>Book Name</td>
+                <td>Author</td>
+                <td>Price</td>
+                <td>Quantity</td>
+            </tr>
+            <tbody id="result"></tbody>
+        </table>
+    </div>
+
+</body>
+<script>
+    function populate(books){
+        let html_data="";
+        for(let book of books){
+            html_data+=`<tr><td>${book.book_name}</td><td>${book.autor}</td><td>${book.prise}</td><td>${book.qty}</td></tr>`
+        }
+        result.innerHTML=html_data
+
+    }
+    function CreateBook() {
+        let book_name = bk_name.value;
+        let autor = author.value;
+        let prise = price.value;
+        let qty = copies.value;
+        let Book = {
+            book_name, autor, prise, qty
+        }
+        if (localStorage.getItem(book_name) == null) {
+
+            localStorage.setItem(book_name, JSON.stringify(Book))
+            alert("book created")
+            window.location.reload(true)
+        }
+        else {
+            alert("bookname already used")
+        }
+
+
+    }
+
+    function fetchbooks() {
+        let books=[];
+        for (let i = 0; i < localStorage.length; i++) {
+            let key = localStorage.key(i);
+            let book = JSON.parse(localStorage.getItem(key))
+            books.push(book)
+            populate(books)
+        }
+
+        populate(books)
+    }
+
+    function findbok(){
+        
+    }
+
+
+
+
+
+
+    // localStorage.clear()
+</script>
+
+</html>

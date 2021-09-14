@@ -1,0 +1,27 @@
+div{
+    border: 1px solid black;
+    height:200px ;
+    width: 400px;
+    background-color: cyan;
+    position: relative;
+    margin-top: 10px;
+    
+}
+.a1,.a2,.a3{
+    width: 100px;
+    height: 100px;
+}
+.a1{background-color: blueviolet;
+
+
+}
+.a2{background-color: brown;
+position: absolute;
+left: 110px;
+top: 0;
+}
+.a3{background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 220px;
+}

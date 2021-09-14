@@ -1,0 +1,26 @@
+.row1{
+    width: 1000px;
+    height: 400px;
+    background-color: blue;
+    border:1px solid black ;
+    display: flex;
+    /*justify-content: space-evenly;*/
+    align-items: flex-end;
+}
+.col{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.col1{
+    background-color: gray;
+    flex: 2;
+}
+.col2{
+    background-color: green;
+    flex: 3;
+}
+.col3{
+    background-color: yellow;
+    flex: 1;
+}

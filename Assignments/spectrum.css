@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.one{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 500px;
+    background-color: grey;
+}
+.two{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    background-color:#996633;
+}
+.three{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    background-color:#17df53cc;
+}
+.four{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    background-color:#df3e0d;
+}
+.five{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    background-color:#e6e6ff;
+}
+.six{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 380px;
+    margin-top: 20px;
+    background-color:#cc33ff;
+
+}
+.seven{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px; 
+    margin-top: 20px; 
+    background-color: royalblue;
+}
+.eight{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:yellow;
+}
+.nine{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:#003300;
+}
+.ten{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:#000099;
+}
+.eleven{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #008000;
+}
+.twel{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:#666699;
+}
+.thirty{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 260px;
+    margin-top: 20px;
+    background-color:#99ffcc;
+}
+.fourty{ border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #1aff1a;
+}
+
+.fifty{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:#ffffff;
+}
+.sixty{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:#ff0000;
+}
+.seventy{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:#9900cc;
+}
+.eighty{
+    border:1px solid ;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:#0000cc;
+}
+.ninty{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #00ffff;
+}
+.twenty{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:#ffff00;
+}
+.twentyone{
+    border:1px solid black;
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:#336600;
+}

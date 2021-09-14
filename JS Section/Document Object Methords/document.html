@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Document</h1>
+    <h1 id="hone">Document object</h1>
+    <h2>adc</h2>
+    <ul>
+        <li class="lit">1</li>
+        <li class="second">2</li>
+        <li class="second">3</li>
+    </ul>
+</body>
+<script>
+    var hone = document.getElementsByTagName("h1")
+    for (let tag of hone) {
+        tag.style.color = "red";
+    }
+    var abc = document.getElementById("hone")
+    abc.style.color = "blue"
+    var lit = document.getElementsByClassName("lit")
+    for (let tag of lit) {
+        tag.style.color = "yellow";
+    }
+    var lis = document.querySelectorAll(".second")
+    for(let ab of lis)
+    ab.style.color = "green"
+   
+    var htwo=document.querySelector("h2")
+    htwo.innerHTML="<em>ABC</em>"
+    htwo.style.color="purple"
+
+</script>
+
+</html>

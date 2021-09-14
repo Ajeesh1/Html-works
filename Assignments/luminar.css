@@ -1,0 +1,51 @@
+nav{
+    background-color: #5e068a;
+    color: white;
+}
+a:hover{
+    color: blueviolet;
+}
+ul{
+    font-weight: bold;
+}
+.btn{
+    background: #5e068a;
+    color: white;
+    
+    
+    
+}
+h1{
+    color: #5e068a;
+    text-align: center;
+}
+
+.button {
+    background-color: #5e068a; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 90px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-top: 21px;
+  }
+  .balance{
+    background-color: #f5f5f5;
+  }
+  .ourcourse{
+      margin-top: 80px;
+  }
+  h4{
+      color:#5e068a; 
+  }
+  h3{
+      color: white;
+  }
+  h5{
+      color: white;
+  }
